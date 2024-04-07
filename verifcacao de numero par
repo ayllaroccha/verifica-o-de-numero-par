@@ -1,0 +1,10 @@
+# qual número você deseja verificar?
+numero = int(input("Digite um número: "))
+
+# verificação do número par
+if numero % 2 == 0:
+    print("Este é um número par")
+    
+# verificação de número ímpar
+else: 
+    print("Este é um número ímpar")
